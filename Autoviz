@@ -1,0 +1,12 @@
+from autoviz.AutoViz_Class import AutoViz_Class
+import pandas as pd
+AV=AutoViz_Class()
+df=pd.read_csv('C:/Users/HMC/Documents/UM/coffee sales/index.csv')
+sep=','
+dft=AV.AutoViz(filename='',sep=',',depVar='',dfte=df,header=0,verbose=0,lowess=False,chart_format='svg',max_rows_analyzed=150000,max_cols_analyzed=30)
+
+
+import pandas as pd
+df=pd.read_csv('C:/Users/HMC/Documents/UM/coffee sales/index.csv')
+import dtale 
+dtale.show(df)
